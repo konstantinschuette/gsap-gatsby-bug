@@ -38,7 +38,7 @@ class IndexPage extends React.Component {
       <Layout>
         <Seo title="Home" />
 
-        <div className="h-screen w-1/3 backdrop-blur-md flex items-center text-white p-12">
+        <div className="h-screen backdrop-blur-md flex items-center text-white p-12" style={{width: '634px'}}>
           <div className="flex flex-col">
             <h1 className="text-5xl font-bold mb-2.5 leading-snug">
               Test Title
